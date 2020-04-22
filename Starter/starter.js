@@ -7,5 +7,12 @@ function Node(data, next = null) {
     this.next = next;
 }
 
+LinkedList.prototype.insertTail = function(node) {
+    let currNode = this.head;
+    if (currNode) {
+        while (currNode.next) { currNode = currNode.next }
+        currNode.next = node;
+    } else this.head = node;
+}
 
 module.exports = { LinkedList, Node }
