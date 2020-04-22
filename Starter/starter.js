@@ -14,5 +14,4 @@ LinkedList.prototype.insertTail = function(node) {
         currNode.next = node;
     } else this.head = node;
 }
-
 module.exports = { LinkedList, Node }
