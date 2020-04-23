@@ -1,5 +1,5 @@
 /*
-Complete the following Linked List insert tail problem below. There is only one input, the node in which you want to insert to the end of the Linked List. Once the node is inserted to the tail, return the Linked List.
+Complete the following Linked List insert tail problem below. There are 2 inputs, the Linked List and the node in which you want to insert to the end of that Linked List. Once the node is inserted to the tail, return the Linked List.
 
 function LinkedList() {
     this.head = null;
@@ -11,8 +11,8 @@ function Node(data, next = null) {
 }
 */
 
-const insertTail = node => {
-    return 4;
+const insertTail = (linkedList, node) => {
+
 }
 
 module.exports = insertTail;

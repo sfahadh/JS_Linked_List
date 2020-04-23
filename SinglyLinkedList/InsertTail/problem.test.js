@@ -2,7 +2,9 @@ const ll = require("../../Starter/starter");
 const InsertTail = require("./problem");
 
 test("Return a linked list with 1 node", () => {
-    const linkedList = new ll.LinkedList();
+    const oldList = new ll.LinkedList();
+    const newList = oldList;
     const node = new ll.Node(4);
-    expect(InsertTail(node)).toEqual(linkedList);
+    newList.insertTail(4)
+    expect(InsertTail(oldList, node)).toEqual(newList);
 })
