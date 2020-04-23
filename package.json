@@ -1,0 +1,24 @@
+{
+  "name": "JS_Linked_List",
+  "version": "1.0.0",
+  "description": "A series of linked list related problems to help those new to the linked list data structure. Each problem includes a description of the problem, test cases to check whether a correct solution of the problem was given or not, and solutions to the problem if all hope seems lost when trying to solve the problem.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^25.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfahadh/JS_Linked_List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfahadh/JS_Linked_List/issues"
+  },
+  "homepage": "https://github.com/sfahadh/JS_Linked_List#readme"
+}
