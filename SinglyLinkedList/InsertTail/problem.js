@@ -12,11 +12,7 @@ function Node(data, next = null) {
 */
 
 const insertTail = node => {
-    let currNode = this.head;
-    if (currNode) {
-        while (currNode.next) { currNode = currNode.next }
-        currNode.next = node;
-    } else this.head = node;
+    return 4;
 }
 
 module.exports = insertTail;

@@ -15,4 +15,7 @@ LinkedList.prototype.insertTail = function(node) {
     } else this.head = node;
 }
 
-module.exports = { LinkedList, Node }
+module.exports = {
+    LinkedList: LinkedList,
+    Node: Node
+}
