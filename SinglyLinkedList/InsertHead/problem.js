@@ -3,7 +3,7 @@ Complete the following Linked List insert head problem below. There are 2 inputs
 
 function LinkedList() {
     this.head = null;
-} 
+}
 
 function Node(data, next = null) {
     this.data = data;
@@ -11,11 +11,12 @@ function Node(data, next = null) {
 }
 */
 
+
 const insertHead = (linkedList, node) => {
 
 }
 
-module.exports = insertTail;
+module.exports = insertHead;
 
 /*
 
