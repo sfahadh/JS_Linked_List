@@ -7,7 +7,7 @@ function Node(data, next = null) {
     this.next = next;
 }
 
-LinkedList.prototype.insertTail = function(node) {
+LinkedList.prototype.insert = function(node) {
     let currNode = this.head;
     if (currNode) {
         while (currNode.next) { currNode = currNode.next }
