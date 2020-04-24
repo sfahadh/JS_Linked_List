@@ -13,7 +13,7 @@ function Node(data, next = null) {
 
 
 const insertHead = (linkedList, node) => {
-
+    
 }
 
 module.exports = insertHead;
