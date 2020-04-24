@@ -1,23 +1,14 @@
-const ll = require("../../Starter/starter");
+const LinkedList = require("../../Starter/linkedList");
+const Node = require("../../Starter/node");
+const generate = require("../../Starter/generate");
 const insertHead = require("./problem");
 
-const generateLinkedList = num => {
-    const linkedList = new ll.LinkedList();
-    for (let i = 1; i <= num; i++) {
-        linkedList.insert(new ll.Node(i))
-    }
-    return linkedList;
-}
-
 test("Return a linked list with new node as the head", () => {
-    const outputList = new ll.LinkedList();
+    const outputList = new LinkedList();
 
-    const headNode = new ll.Node(3);
-    const node2 = new ll.Node(1);
-    const node3 = new ll.Node(2);
+    const headNode = new Node(3);
     outputList.insert(headNode);
-    outputList.insert(node2);
-    outputList.insert(node3);
+    generate.addNodesToLinkedList(outputList, 1, 2);
 
-    expect(insertHead(generateLinkedList(2), headNode)).toEqual(outputList);
+    expect(insertHead(generate.generateLinkedList(1, 2), headNode)).toEqual(outputList);
 })
