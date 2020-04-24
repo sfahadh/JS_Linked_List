@@ -2,11 +2,6 @@ function LinkedList() {
     this.head = null;
 }
 
-function Node(data, next = null) {
-    this.data = data;
-    this.next = next;
-}
-
 LinkedList.prototype.insert = function(node) {
     let currNode = this.head;
     if (currNode) {
@@ -15,7 +10,4 @@ LinkedList.prototype.insert = function(node) {
     } else this.head = node;
 }
 
-module.exports = {
-    LinkedList: LinkedList,
-    Node: Node
-}
+module.exports = LinkedList
