@@ -28,3 +28,7 @@ Input: { 7 => null }
 Expected Output: { 3 => { 4 => { 7 => { 5 => { 6 => null } } } } }
 
 */
+
+/*
+    - You can assume that the linked list will always have at LEAST 2 nodes.
+*/
