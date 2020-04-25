@@ -1,4 +1,4 @@
-const linkedList = require("../../Starter/linkedList");
+const LinkedList = require("../../Starter/linkedList");
 const generate = require("../../Starter/generate");
 const RemoveHead = require("./problem");
 
@@ -11,7 +11,7 @@ test("Return a linked list with head node of data 3 removed", () => {
 
 // Test Case 2:
 test("Return a linked list with head node of data 1 removed", () => {
-    expect(RemoveHead(generate.generateLinkedList(1, 1))).toEqual(new linkedList());
+    expect(RemoveHead(generate.generateLinkedList(1, 1))).toEqual(new LinkedList());
 })
 
 // Test Case 3:
