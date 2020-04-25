@@ -13,7 +13,7 @@ function Node(data, next = null) {
 
 
 const removeTail = linkedList => {
-  
+
 }
 
 module.exports = removeTail;
