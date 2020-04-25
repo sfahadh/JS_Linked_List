@@ -13,7 +13,7 @@ function Node(data, next = null) {
 
 
 const insertAt = (linkedList, node, index) => {
-    
+
 }
 
 module.exports = insertAt;
