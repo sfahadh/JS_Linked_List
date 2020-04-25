@@ -22,4 +22,9 @@ module.exports = removeMid;
 
 Linked List = { 3 => { 4 => { 5 => null } } }
 Expected Output: { 3 => { 5 => null } } 
+
+*/
+
+/*
+    - You can assume that the linked list will always have at LEAST 2 nodes.
 */
