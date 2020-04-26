@@ -13,7 +13,7 @@ function Node(data, next = null) {
 
 
 const removeAt = (linkedList, index) => {
-  
+
 }
 
 module.exports = removeAt;
