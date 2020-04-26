@@ -12,11 +12,11 @@ function Node(data, next = null) {
 */
 
 
-const findNode = linkedList => {
+const getAllNodes = linkedList => {
 
 }
 
-module.exports = findNode;
+module.exports = getAllNodes;
 
 /*
 
