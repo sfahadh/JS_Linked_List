@@ -13,7 +13,7 @@ function Node(data, next = null) {
 
 
 const findNode = (linkedList, data) => {
-    
+
 }
 
 module.exports = findNode;
