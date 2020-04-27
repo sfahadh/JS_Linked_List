@@ -14,7 +14,7 @@ test("Return 0 for the number of nodes in the linked list", () => {
 
 // Test Case 3:
 test("Return 64 for the number of nodes in the linked list", () => {
-    expect(Size(generate.generateLinkedList(64, 128))).toEqual(64);
+    expect(Size(generate.generateLinkedList(64, 127))).toEqual(64);
 })
 
 // Test Case 4:
@@ -24,5 +24,5 @@ test("Return 1 for the number of nodes in the linked list", () => {
 
 // Test Case 5:
 test("Return 6 for the number of nodes in the linked list", () => {
-    expect(Size(generate.generateLinkedList(12, 18))).toEqual(6);
+    expect(Size(generate.generateLinkedList(12, 17))).toEqual(6);
 })

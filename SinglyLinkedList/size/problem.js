@@ -13,7 +13,7 @@ function Node(data, next = null) {
 
 
 const size = linkedList => {
-
+    
 }
 
 module.exports = size;
