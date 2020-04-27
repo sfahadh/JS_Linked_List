@@ -21,6 +21,6 @@ module.exports = reverse;
 /*
 
 Linked List = { 3 => { 4 => { 5 => { 6 => null } } } }
-Expected Output: { 6 => { 5 => { 4 => { 3 = > } } } }
+Expected Output: { 6 => { 5 => { 4 => { 3 => null } } } }
 
 */
