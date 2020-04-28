@@ -1,0 +1,29 @@
+/*
+Complete the following Linked List second half problem below. There is only 1 input, which is the Linked List and the goal is to ignore the first half of the Linked List and return the second half.
+
+function LinkedList() {
+    this.head = null;
+}
+
+function Node(data, next = null) {
+    this.data = data;
+    this.next = next;
+}
+*/
+
+
+const secondHalf = linkedList => {
+
+}
+
+module.exports = secondHalf;
+
+/*
+
+Linked List = { 3 => { 4 => { 5 => { 6 => null } } } }
+Expected Output: { 5 => { 6 => null } } 
+
+Linked List = { 3 => { 4 => { 5 => { 6 => { 7 => null } } } } }
+Expected Output: { 5 => { 6 => { 7 => null } } } 
+
+*/
