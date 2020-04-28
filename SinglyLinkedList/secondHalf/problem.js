@@ -11,7 +11,6 @@ function Node(data, next = null) {
 }
 */
 
-
 const secondHalf = linkedList => {
 
 }
@@ -23,7 +22,7 @@ module.exports = secondHalf;
 Linked List = { 3 => { 4 => { 5 => { 6 => null } } } }
 Expected Output: { 5 => { 6 => null } } 
 
-Linked List = { 3 => { 4 => { 5 => { 6 => { 7 => null } } } } }
-Expected Output: { 5 => { 6 => { 7 => null } } } 
+Linked List = { 3 => { 4 => { 5 => null } } }
+Expected Output: { 4 => { 5 => null } } 
 
 */

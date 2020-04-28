@@ -1,5 +1,5 @@
 const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node")
+const Node = require("../../Starter/node");
 const generate = require("../../Starter/generate");
 const RemoveMid = require("./problem");
 
