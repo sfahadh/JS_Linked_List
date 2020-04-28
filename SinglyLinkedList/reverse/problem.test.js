@@ -7,6 +7,7 @@ const Reverse = require("./problem");
 test("Return a linked list where nodes traverse from 6 to 3", () => {
     const inputList = generate.generateLinkedList(3, 6);
     const outputList = new LinkedList();
+
     outputList.insert(new Node(6));
     outputList.insert(new Node(5));
     outputList.insert(new Node(4));
@@ -19,6 +20,7 @@ test("Return a linked list where nodes traverse from 6 to 3", () => {
 test("Return a linked list where nodes traverse from 41 to 32", () => {
     const inputList = generate.generateLinkedList(32, 41);
     const outputList = new LinkedList();
+
     outputList.insert(new Node(41));
     outputList.insert(new Node(40));
     outputList.insert(new Node(39));
@@ -37,6 +39,7 @@ test("Return a linked list where nodes traverse from 41 to 32", () => {
 test("Return original linked list", () => {
     const inputList = generate.generateLinkedList(1, 1);
     const outputList = new LinkedList();
+
     outputList.insert(new Node(1));
     
     expect(Reverse(inputList)).toEqual(outputList.head);
@@ -46,6 +49,7 @@ test("Return original linked list", () => {
 test("Return a linked list where nodes traverse from 12 to 13", () => {
     const inputList = generate.generateLinkedList(12, 13);
     const outputList = new LinkedList();
+
     outputList.insert(new Node(13));
     outputList.insert(new Node(12));
 
@@ -56,6 +60,7 @@ test("Return a linked list where nodes traverse from 12 to 13", () => {
 test("Return a linked list where nodes traverse from 5 to 0", () => {
     const inputList = generate.generateLinkedList(0, 5);
     const outputList = new LinkedList();
+    
     outputList.insert(new Node(5));
     outputList.insert(new Node(4));
     outputList.insert(new Node(3));

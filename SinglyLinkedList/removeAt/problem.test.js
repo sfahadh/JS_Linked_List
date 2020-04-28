@@ -5,10 +5,13 @@ const RemoveAt = require("./problem");
 
 // Test Case 1:
 test("Return a linked list with the node of data 4 at index 1 removed", () => {
+    const inputList = generate.generateLinkedList(3, 5);
     const outputList = new LinkedList;
+
     outputList.insert(new Node(3));
     outputList.insert(new Node(5));
-    expect(RemoveAt(generate.generateLinkedList(3, 5), 1)).toEqual(outputList);
+
+    expect(RemoveAt(inputList, 1)).toEqual(outputList);
 })
 
 // Test Case 2:
@@ -29,7 +32,9 @@ test("Return a linked list with the node of data 1 at index 0 removed", () => {
 test("Return a linked list with the node of data 45 at index 7 removed", () => {
     const inputList = generate.generateLinkedList(38, 73);
     const outputList = generate.generateLinkedList(38, 44);
+
     generate.addNodesToLinkedList(outputList, 46, 73)
+    
     expect(RemoveAt(inputList, 7)).toEqual(outputList);
 })
 
@@ -56,6 +61,8 @@ test("Return a linked list with the node of data 4 at index 3 removed", () => {
 test("Return a linked list with the node of data 99 at index 15 removed", () => {
     const inputList = generate.generateLinkedList(84, 100);
     const outputList = generate.generateLinkedList(84, 98);
+
     outputList.insert(new Node(100))
+    
     expect(RemoveAt(inputList, 15)).toEqual(outputList);
 })
