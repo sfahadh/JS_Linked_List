@@ -1,5 +1,5 @@
 /*
-Complete the following Linked List size problem below. There is only 1 input, which the Linked List. The goal is the find the number of nodes the Linked List has.
+Complete the following Linked List size problem below. There is only 1 input, which is the Linked List. The goal is to find the number of nodes the Linked List has.
 
 function LinkedList() {
     this.head = null;
