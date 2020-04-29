@@ -1,7 +1,7 @@
-/* // Uncomment the imports below if you plan on using them
+// Uncomment the imports below if you plan on using them
 const LinkedList = require("../../Starter/linkedList");
 const Node = require("../../Starter/node");
-*/
+
 
 /*
 Complete the following Linked List merge sorted problem below. There are 2 inputs, both being two sorted Linked Lists. The goal is to combine the two sorted Linked Lists into 1 sorted Linked List.
@@ -16,7 +16,7 @@ function Node(data, next = null) {
 }
 */
 
-const mergeSorted = linkedList => {
+const mergeSorted = (linkedList1, linkedList2) => {
 
 }
 
