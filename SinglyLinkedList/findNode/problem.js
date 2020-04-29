@@ -1,3 +1,8 @@
+/* // Uncomment the imports below if you plan on using them
+const LinkedList = require("../../Starter/linkedList");
+const Node = require("../../Starter/node");
+*/
+
 /*
 Complete the following Linked List find node problem below. There are 2 inputs, the Linked List and the node data that may or may not be found in the Linked List. Traverse through the Linked List and if the node data is found, return true, otherwise return false.
 

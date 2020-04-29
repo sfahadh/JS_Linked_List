@@ -1,3 +1,8 @@
+/* // Uncomment the imports below if you plan on using them
+const LinkedList = require("../../Starter/linkedList");
+const Node = require("../../Starter/node");
+*/
+
 /*
 Complete the following Linked List remove at problem below. There is are 2 inputs, which is the linkedlist and the index position in where you want to remove the node from. Remove the node and once that's done, return the Linked List.
 

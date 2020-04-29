@@ -1,3 +1,8 @@
+/* // Uncomment the imports below if you plan on using them
+const LinkedList = require("../../Starter/linkedList");
+const Node = require("../../Starter/node");
+*/
+
 /*
 Complete the following Linked List insert at problem below. There are 3 inputs, the Linked List, the node, and the index position in where you want to insert the node. Once the node is inserted into the correct position, return the Linked List.
 

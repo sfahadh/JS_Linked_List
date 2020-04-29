@@ -1,3 +1,8 @@
+/* // Uncomment the imports below if you plan on using them
+const LinkedList = require("../../Starter/linkedList");
+const Node = require("../../Starter/node");
+*/
+
 /*
 Complete the following Linked List insert mid problem below. There are 2 inputs, the Linked List and the node in which you want to insert to the middle of that Linked List. Once the node is inserted to the middle, return the Linked List.
 
