@@ -11,7 +11,6 @@ function Node(data, next = null) {
 }
 */
 
-
 const sort = linkedList => {
     
 }

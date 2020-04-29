@@ -8,20 +8,15 @@ test("Return a sorted linked list: { 3 => { 24 => { 29 => { 42 => null } } } }",
     const inputList = new LinkedList;
     const outputList = new LinkedList;
 
-    const node1 = new Node(3);
-    const node2 = new Node(24);
-    const node3 = new Node(29);
-    const node4 = new Node(42);
+    inputList.insert(new Node(29));
+    inputList.insert(new Node(3));
+    inputList.insert(new Node(24));
+    inputList.insert(new Node(42));
 
-    inputList.insert(node3);
-    inputList.insert(node1);
-    inputList.insert(node2);
-    inputList.insert(node4);
-
-    outputList.insert(node1);
-    outputList.insert(node2);
-    outputList.insert(node3);
-    outputList.insert(node4);
+    outputList.insert(new Node(3));
+    outputList.insert(new Node(24));
+    outputList.insert(new Node(29));
+    outputList.insert(new Node(42));
 
     expect(Sort(inputList)).toEqual(outputList);
 })
@@ -31,17 +26,11 @@ test("Return a sorted linked list: { 1 => { 2 => { 3 => { 4 => { 5 => null } } }
     const inputList = new LinkedList;
     const outputList = generate.generateLinkedList(1, 5);
 
-    const node1 = new Node(1);
-    const node2 = new Node(2);
-    const node3 = new Node(3);
-    const node4 = new Node(4);
-    const node5 = new Node(5);
-
-    inputList.insert(node3);
-    inputList.insert(node1);
-    inputList.insert(node2);
-    inputList.insert(node5);
-    inputList.insert(node4);
+    inputList.insert(new Node(3));
+    inputList.insert(new Node(1));
+    inputList.insert(new Node(2));
+    inputList.insert(new Node(5));
+    inputList.insert(new Node(4));
 
     expect(Sort(inputList)).toEqual(outputList);
 })
@@ -63,17 +52,13 @@ test("Return a sorted linked list: { 33 => { 63 => { 99 => null } } }", () => {
     const inputList = new LinkedList;
     const outputList = new LinkedList;
 
-    const node1 = new Node(99);
-    const node2 = new Node(63);
-    const node3 = new Node(33);
+    inputList.insert(new Node(99));
+    inputList.insert(new Node(63));
+    inputList.insert(new Node(33));
 
-    inputList.insert(node1);
-    inputList.insert(node2);
-    inputList.insert(node3);
-
-    outputList.insert(node3);
-    outputList.insert(node2);
-    outputList.insert(node1);
+    outputList.insert(new Node(33));
+    outputList.insert(new Node(63));
+    outputList.insert(new Node(99));
 
     expect(Sort(inputList)).toEqual(outputList);
 })
@@ -83,14 +68,11 @@ test("Return a sorted linked list: { 134 => { 167 => null } }", () => {
     const inputList = new LinkedList;
     const outputList = new LinkedList;
 
-    const node1 = new Node(134);
-    const node2 = new Node(167);
+    inputList.insert(new Node(167));
+    inputList.insert(new Node(134));
 
-    inputList.insert(node2);
-    inputList.insert(node1);
-
-    outputList.insert(node1);
-    outputList.insert(node2);
+    outputList.insert(new Node(134));
+    outputList.insert(new Node(167));
 
     expect(Sort(inputList)).toEqual(outputList);
 })
@@ -99,11 +81,8 @@ test("Return a sorted linked list: { 134 => { 167 => null } }", () => {
 test("Return original linked list - Part III", () => {
     const list = new LinkedList;
 
-    const node1 = new Node(25);
-    const node2 = new Node(189);
-
-    list.insert(node1);
-    list.insert(node2);
+    list.insert(new Node(25));
+    list.insert(new Node(189));
 
     expect(Sort(list)).toEqual(list);
 })
