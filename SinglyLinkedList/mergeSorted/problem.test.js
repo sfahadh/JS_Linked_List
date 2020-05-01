@@ -52,11 +52,6 @@ test("Return just first linked list because second one is empty", () => {
 })
 
 // Test Case 4:
-test("Return empty linked list", () => {
-    expect(MergeSorted(new LinkedList()), new LinkedList()).toEqual(new LinkedList());
-})
-
-// Test Case 5:
 test("Return a new sorted Linked List with 2 nodes - Part I", () => {
     const inputList1 = new LinkedList;
     const inputList2 = new LinkedList;
@@ -72,7 +67,7 @@ test("Return a new sorted Linked List with 2 nodes - Part I", () => {
     expect(MergeSorted(inputList1, inputList2)).toEqual(outputList);
 })
 
-// Test Case 6:
+// Test Case 5:
 test("Return a new sorted Linked List with 2 nodes - Part II", () => {
     const inputList1 = new LinkedList;
     const inputList2 = new LinkedList;
@@ -88,7 +83,7 @@ test("Return a new sorted Linked List with 2 nodes - Part II", () => {
     expect(MergeSorted(inputList1, inputList2)).toEqual(outputList);
 })
 
-// Test Case 7:
+// Test Case 6:
 test("Return a new sorted Linked List with 10 nodes", () => {
     const inputList1 = generate.generateLinkedList(0, 5);
     const inputList2 = generate.generateLinkedList(6, 10);
@@ -97,7 +92,7 @@ test("Return a new sorted Linked List with 10 nodes", () => {
     expect(MergeSorted(inputList1, inputList2)).toEqual(outputList);
 })
 
-// Test Case 8:
+// Test Case 7:
 test("Return a new sorted Linked List with 5 nodes - Part I", () => {
     const inputList1 = new LinkedList;
     const inputList2 = new LinkedList;
@@ -113,7 +108,7 @@ test("Return a new sorted Linked List with 5 nodes - Part I", () => {
     expect(MergeSorted(inputList1, inputList2)).toEqual(outputList);
 })
 
-// Test Case 9:
+// Test Case 8:
 test("Return a new sorted Linked List with 5 nodes - Part II", () => {
     const inputList1 = new LinkedList;
     const inputList2 = new LinkedList;
