@@ -103,7 +103,6 @@ test("Return a linked list with duplicates of 64 removed", () => {
 
     outputList.insert(new Node(64));
     outputList.insert(new Node(523));
-    outputList.insert(new Node(64));
 
     expect(RemoveDuplicates(inputList)).toEqual(outputList);
 })

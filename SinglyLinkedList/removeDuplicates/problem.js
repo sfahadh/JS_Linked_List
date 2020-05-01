@@ -18,14 +18,15 @@ function Node(data, next = null) {
 
 
 const removeDuplicates = linkedList => {
-  
+
 }
+
 
 module.exports = removeDuplicates;
 
 /*
 
-Linked List = { 3 => { 3 => { 3 => { 4 => { 5 => { 5 => null } } } }
-Expected Output: { 3 => { 4 => { 5 => null } } }
+Linked List = { 9 => { 9 => { 9 => { 4 => { 5 => { 5 => { 9 => null } } } } }
+Expected Output: { 9 => { 4 => { 5 => null } } }
 
 */
