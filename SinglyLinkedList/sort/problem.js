@@ -1,10 +1,12 @@
+// ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
+
 /* // Uncomment the imports below if you plan on using them
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
+* const LinkedList = require("../../Starter/linkedList");
+* const Node = require("../../Starter/node");
 */
 
 /*
-Complete the following Linked List sort problem below. There is only 1 input, which is the Linked List. The goal is to sort the Linked List in increasing node data order.
+TODO: Complete the following Linked List sort problem below. There is only 1 input, which is the Linked List. The goal is to sort the Linked List in increasing node data order.
 
 function LinkedList() {
     this.head = null;
@@ -23,8 +25,7 @@ const sort = linkedList => {
 module.exports = sort;
 
 /*
-
+! Test Case: 
 Linked List = { 24 => { 42 => { 3 => { 29 => null } } } }
 Expected Output: { 3 => { 24 => { 29 => { 42 => null } } } }
-
 */

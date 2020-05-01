@@ -1,10 +1,12 @@
+// ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
+
 /* // Uncomment the imports below if you plan on using them
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
+* const LinkedList = require("../../Starter/linkedList");
+* const Node = require("../../Starter/node");
 */
 
 /*
-Complete the following Linked List insert head problem below. There are 2 inputs, the Linked List and the node in which you want to insert to the head of that Linked List. Once the node is inserted to the head, return the Linked List.
+TODO: Complete the following Linked List insert head problem below. There are 2 inputs, the Linked List and the node in which you want to insert to the head of that Linked List. Once the node is inserted to the head, return the Linked List.
 
 function LinkedList() {
     this.head = null;
@@ -24,9 +26,8 @@ const insertHead = (linkedList, node) => {
 module.exports = insertHead;
 
 /*
-
+! Test Case:
 Linked List = { 3 => { 4 => { 5 => null } } }
 Input: { 2 => null }
 Expected Output: { 2 => { 3 => { 4 => { 5 => null } } } }
-
 */

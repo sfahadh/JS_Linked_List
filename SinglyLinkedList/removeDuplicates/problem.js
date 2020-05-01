@@ -1,10 +1,12 @@
+// ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
+
 /* // Uncomment the imports below if you plan on using them
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
+* const LinkedList = require("../../Starter/linkedList");
+* const Node = require("../../Starter/node");
 */
 
 /*
-Complete the following Linked List remove duplicates problem below. There is only 1 input, which is the Linked List. The goal is to find any duplicate nodes and remove them. In essence, all nodes should be unique. Return Linked List once that is done.
+TODO: Complete the following Linked List remove duplicates problem below. There is only 1 input, which is the Linked List. The goal is to find any duplicate nodes and remove them. In essence, all nodes should be unique. Return Linked List once that is done.
 
 function LinkedList() {
     this.head = null;
@@ -25,8 +27,7 @@ const removeDuplicates = linkedList => {
 module.exports = removeDuplicates;
 
 /*
-
+! Test Case: 
 Linked List = { 9 => { 9 => { 9 => { 4 => { 5 => { 5 => { 9 => null } } } } }
 Expected Output: { 9 => { 4 => { 5 => null } } }
-
 */

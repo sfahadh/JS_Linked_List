@@ -1,10 +1,12 @@
+// ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
+
 /* // Uncomment the imports below if you plan on using them
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
+* const LinkedList = require("../../Starter/linkedList");
+* const Node = require("../../Starter/node");
 */
 
 /*
-Complete the following Linked List get all nodes problem below. There is only 1 input, which is the Linked List and the goal is to retrieve all node data and return the result.
+TODO: Complete the following Linked List get all nodes problem below. There is only 1 input, which is the Linked List and the goal is to retrieve all node data and return the result.
 
 function LinkedList() {
     this.head = null;
@@ -24,8 +26,8 @@ const getAllNodes = linkedList => {
 module.exports = getAllNodes;
 
 /*
-
+!Test Case:
 Linked List = { 3 => { 4 => { 5 => null } } }
+input: (Linked List)
 Expected Output: [3, 4, 5]
-
 */
