@@ -12,14 +12,15 @@ function LinkedList() {
     this.head = null;
 } 
 
-function Node(data, next = null) {
+function Node(data, next = null, prev = null) {
     this.data = data;
     this.next = next;
+    this.prev = prev;
 }
 */
 
 const insertTail = (linkedList, node) => {
-
+    
 }
 
 module.exports = insertTail;
