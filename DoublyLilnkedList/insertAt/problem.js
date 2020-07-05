@@ -20,7 +20,7 @@ function Node(data, next = null, prev = null) {
 */
 
 const insertTail = (linkedList, node) => {
-    
+  
 }
 
 module.exports = insertTail;
