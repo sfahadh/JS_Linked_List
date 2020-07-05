@@ -11,5 +11,4 @@ LinkedList.prototype.insert = function(node) {
     } else this.head = node;
 }
 
-
 module.exports = LinkedList
