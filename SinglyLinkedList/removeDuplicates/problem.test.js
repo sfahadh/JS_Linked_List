@@ -1,6 +1,6 @@
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
-const generate = require("../../Starter/generate");
+const LinkedList = require("../../Starter/Singly/linkedList");
+const Node = require("../../Starter/Singly/node");
+const generate = require("../../Starter/Singly/generate");
 const RemoveDuplicates = require("./problem");
 
 // Test Case 1:
@@ -50,7 +50,7 @@ test("Return original linked list", () => {
 test("Return a linked list with duplicates of 7 removed", () => {
     const inputList = new LinkedList;
     const outputList = generate.generateLinkedList(7, 7);
-    
+
     inputList.insert(new Node(7));
     inputList.insert(new Node(7));
     inputList.insert(new Node(7));

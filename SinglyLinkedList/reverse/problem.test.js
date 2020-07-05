@@ -1,6 +1,6 @@
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
-const generate = require("../../Starter/generate");
+const LinkedList = require("../../Starter/Singly/linkedList");
+const Node = require("../../Starter/Singly/node");
+const generate = require("../../Starter/Singly/generate");
 const Reverse = require("./problem");
 
 // Test Case 1:
@@ -31,7 +31,7 @@ test("Return a linked list where nodes traverse from 41 to 32", () => {
     outputList.insert(new Node(34));
     outputList.insert(new Node(33));
     outputList.insert(new Node(32));
-    
+
     expect(Reverse(inputList)).toEqual(outputList.head);
 })
 
@@ -41,7 +41,7 @@ test("Return original linked list", () => {
     const outputList = new LinkedList();
 
     outputList.insert(new Node(1));
-    
+
     expect(Reverse(inputList)).toEqual(outputList.head);
 })
 
@@ -60,7 +60,7 @@ test("Return a linked list where nodes traverse from 12 to 13", () => {
 test("Return a linked list where nodes traverse from 5 to 0", () => {
     const inputList = generate.generateLinkedList(0, 5);
     const outputList = new LinkedList();
-    
+
     outputList.insert(new Node(5));
     outputList.insert(new Node(4));
     outputList.insert(new Node(3));

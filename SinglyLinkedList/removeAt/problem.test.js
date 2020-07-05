@@ -1,6 +1,6 @@
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
-const generate = require("../../Starter/generate");
+const LinkedList = require("../../Starter/Singly/linkedList");
+const Node = require("../../Starter/Singly/node");
+const generate = require("../../Starter/Singly/generate");
 const RemoveAt = require("./problem");
 
 // Test Case 1:
@@ -34,7 +34,7 @@ test("Return a linked list with the node of data 45 at index 7 removed", () => {
     const outputList = generate.generateLinkedList(38, 44);
 
     generate.addNodesToLinkedList(outputList, 46, 73)
-    
+
     expect(RemoveAt(inputList, 7)).toEqual(outputList);
 })
 
@@ -63,6 +63,6 @@ test("Return a linked list with the node of data 99 at index 15 removed", () => 
     const outputList = generate.generateLinkedList(84, 98);
 
     outputList.insert(new Node(100))
-    
+
     expect(RemoveAt(inputList, 15)).toEqual(outputList);
 })

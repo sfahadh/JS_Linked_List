@@ -1,5 +1,5 @@
-const LinkedList = require("../../Starter/linkedList");
-const generate = require("../../Starter/generate");
+const LinkedList = require("../../Starter/Singly/linkedList");
+const generate = require("../../Starter/Singly/generate");
 const Size = require("./problem");
 
 // Test Case 1:

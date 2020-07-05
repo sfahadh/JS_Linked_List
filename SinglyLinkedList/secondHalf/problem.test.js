@@ -1,4 +1,4 @@
-const generate = require("../../Starter/generate");
+const generate = require("../../Starter/Singly/generate");
 const SecondHalf = require("./problem");
 
 // Test Case 1:

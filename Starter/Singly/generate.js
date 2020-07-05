@@ -17,6 +17,6 @@ const addNodesToLinkedList = (linkedList, start, end) => {
 }
 
 module.exports = {
-    generateLinkedList: generateLinkedList, 
+    generateLinkedList: generateLinkedList,
     addNodesToLinkedList: addNodesToLinkedList
 }

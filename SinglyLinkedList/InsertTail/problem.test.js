@@ -1,6 +1,6 @@
-const generate = require("../../Starter/generate");
-const LinkedList = require("../../Starter/linkedList");
-const Node = require("../../Starter/node");
+const LinkedList = require("../../Starter/Singly/linkedList");
+const Node = require("../../Starter/Singly/node");
+const generate = require("../../Starter/Singly/generate");
 const InsertTail = require("./problem");
 
 // Test Case 1:
@@ -41,7 +41,7 @@ test("Return a linked list with the node of data 8 attached to end", () => {
 test("Return a linked list with the node of data 6 attached to end", () => {
     const inputList = generate.generateLinkedList(3, 5);
     const outputList = new LinkedList();
-    
+
     generate.addNodesToLinkedList(outputList, 3, 5);
     const tailNode = new Node(6);
     outputList.insert(tailNode);
@@ -53,7 +53,7 @@ test("Return a linked list with the node of data 6 attached to end", () => {
 test("Return a linked list with the node of data 1005 attached to end", () => {
     const inputList = generate.generateLinkedList(34, 1000);
     const outputList = new LinkedList();
-    
+
     generate.addNodesToLinkedList(outputList, 34, 1000);
     const tailNode = new Node(1005);
     outputList.insert(tailNode);
