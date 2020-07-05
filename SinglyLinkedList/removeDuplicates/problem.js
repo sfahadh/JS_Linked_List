@@ -1,8 +1,8 @@
 // ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
 
 /* // Uncomment the imports below if you plan on using them
-* const LinkedList = require("../../Starter/linkedList");
-* const Node = require("../../Starter/node");
+* const LinkedList = require("../../Starter/Singly/linkedList");
+* const Node = require("../../Starter/Singly/node");
 */
 
 /*
