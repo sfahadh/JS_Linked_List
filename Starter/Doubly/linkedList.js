@@ -1,14 +1,18 @@
 function LinkedList() {
     this.head = null;
+    this.tail = null;
 }
 
 LinkedList.prototype.insert = function(node) {
-    let currNode = this.head;
-    if (currNode) {
-        while (currNode.next) { currNode = currNode.next }
-        currNode.next = node;
-        currNode.next.prev = currNode;
-    } else this.head = node;
+    if (!this.head && !this.tail) {
+        this.head = node;
+        this.tail = node;
+    } else {
+        let tailNode = this.tail;
+        tailNode.next = node;
+        node.prev = tailNode;
+        this.tail = node;
+    }
 }
 
 module.exports = LinkedList
